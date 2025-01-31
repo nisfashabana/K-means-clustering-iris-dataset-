@@ -14,13 +14,13 @@ The iris dataset contains 150 observations with the following features:
 
 ## Project Objectives
 
-1.Apply K-Means Clustering to group similar data points.                                                                           
-2.Evaluate clustering performance using:                                                                                                         
+#### 1.Apply K-Means Clustering to group similar data points.                                                                           
+#### 2.Evaluate clustering performance using:                                                                                                         
   * Elbow Method:identifies the point of diminishing returns for clustering inertia.
   * Silhouette Scores:Balances cluster cohesion and seperation.
                                                                                   
-3.Visualize the clustering results                                                                                                               
-4.Compare and select the best k-value for clustering. 
+#### 3.Visualize the clustering results                                                                                                               
+#### 4.Compare and select the best k-value for clustering. 
 
 
 ## Dependencies
@@ -34,12 +34,12 @@ pip install seaborn matplotlib scikit-learn pandas
 
 ## Usage Instructions
 
-1.Run clustering Analysi
+#### 1.Run clustering Analysi
   Execute the main script to visualize both the Elbow and Silhouette plots:
 
   python kmeans_iris_analysis.py
 
-2.Key Sections of the Code:
+#### 2.Key Sections of the Code:
 
   •Data preprocessing: Standardizes the dataset using StandardScaler.                                                                                                                            
   •K-Means Clustering: Applies clustering for varying  k  values.                                                                                                                                                    
@@ -48,15 +48,15 @@ pip install seaborn matplotlib scikit-learn pandas
 
 ## Key Outputs
 
-1.Elbow Method:
+#### 1.Elbow Method:
 
   Helps determine the optimal  k  by identifying the “elbow” point where distortion reduction slows down.
   
-2.Silhouette Plot:
+#### 2.Silhouette Plot:
 
   Suggests the best  k  by indicating how well data points fit within their clusters.
   
-3.Cluster Visualization:
+#### 3.Cluster Visualization:
 
   Visualizes clusters formed by K-Means with different  k  values.
 
