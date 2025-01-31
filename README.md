@@ -20,4 +20,49 @@ The iris dataset contains 150 observations with the following features:
   * Silhouette Scores:Balances cluster cohesion and seperation.
                                                                                   
 3.Visualize the clustering results                                                                                                               
-4.Compare and select the best k-value for clustering.                                                                                        
+4.Compare and select the best k-value for clustering. 
+
+
+Dependencies
+
+	•	Python 3.x
+	•	Libraries:
+
+pip install seaborn matplotlib scikit-learn pandas
+
+
+
+Usage Instructions
+
+	1.	Run Clustering Analysis:
+Execute the main script to visualize both the Elbow and Silhouette plots:
+
+python kmeans_iris_analysis.py
+
+
+	2.	Key Sections of the Code:
+	•	Data preprocessing: Standardizes the dataset using StandardScaler.
+	•	K-Means Clustering: Applies clustering for varying  k  values.
+	•	Elbow Plot: Visualizes the distortion score (inertia) across different clusters.
+	•	Silhouette Plot: Shows silhouette scores for different  k  values.
+
+Key Outputs
+
+	1.	Elbow Plot:
+Helps determine the optimal  k  by identifying the “elbow” point where distortion reduction slows down.
+	2.	Silhouette Plot:
+Suggests the best  k  by indicating how well data points fit within their clusters.
+	3.	Cluster Visualization:
+Visualizes clusters formed by K-Means with different  k  values.
+
+Interpreting the Results
+
+	•	The Elbow Method often suggests a smaller  k  for compact clusters, while the Silhouette Score prefers values with better-defined cluster separation.
+	•	Choose  k  based on both visual inspection and domain knowledge.
+	•	Example decision:
+	•	If Elbow suggests  k=3  and Silhouette suggests  k=5 , try evaluating  k=4  as a compromise.
+
+Conclusion
+
+This project demonstrates how to combine clustering metrics like Elbow and Silhouette methods to make informed choices about  k . It highlights the importance of balancing data structure with interpretability.
+
