@@ -14,9 +14,9 @@ The iris dataset contains 150 observations with the following features:
 
 ## Project Objectives
 
-1.Apply K=Means Clustering to group similar data points.
-2.Evaluate clustering performance using:
+1.Apply K=Means Clustering to group similar data points.                                                                           
+2.Evaluate clustering performance using:                                                                                                         
   * Elbow Method:identifies the point of diminishing returns for clustering inertia.
-  * Silhouette Scores:Balances cluster cohesion and seperation.
-3.Visualize the clustering results
-4.Compare and select the best k-value for clustering.
+  * Silhouette Scores:Balances cluster cohesion and seperation.                                                                                  
+3.Visualize the clustering results                                                                                                               
+4.Compare and select the best k-value for clustering.                                                                                        
