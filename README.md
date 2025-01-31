@@ -23,18 +23,19 @@ The iris dataset contains 150 observations with the following features:
 4.Compare and select the best k-value for clustering. 
 
 
-Dependencies
+## Dependencies
 
-	•	Python 3.x
-	•	Libraries:
+Python 3.X
+Libraries:
 
 pip install seaborn matplotlib scikit-learn pandas
 
 
 
-Usage Instructions
+## Usage Instructions
 
-	1.	Run Clustering Analysis:
+1.Run clustering Analysis
+
 Execute the main script to visualize both the Elbow and Silhouette plots:
 
 python kmeans_iris_analysis.py
